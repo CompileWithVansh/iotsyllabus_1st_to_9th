@@ -1,5 +1,5 @@
 # 💻 Standard 5 — Code Begins
-## Theme: "Arduino Enters the Lab"
+## Theme: "A Robot's Brain — Arduino Enters the Lab"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -46,11 +46,11 @@
 | 12 | DHT22 — temperature + humidity | Install DHT library. Wire DHT22 to pin 4. Print: "Temp: 28°C | Humidity: 65%". Add: if temp > 35 → print "FEVER ALERT!". |
 | 13 | OLED display — I2C setup | Install SSD1306 + GFX library. Wire SDA→A4, SCL→A5. Display your name. Display temperature reading from DHT22. |
 | 14 | OLED display — multiple values + shapes | Show temp AND humidity together. Draw a box around the values. Show a small icon (heart shape for health monitor preview). |
-| 15 | IR obstacle sensor — how it works | Wire IR sensor to pin 5. Wave hand in front → Serial Monitor: "OBSTACLE!". No hand → "CLEAR". |
+| 15 | The Crash Protection Problem | How do we prevent a robot from crashing? Wire IR sensor to pin 5. Wave hand in front → Serial Monitor: "OBSTACLE!". No hand → "CLEAR". |
 | 16 | L298N wiring with Arduino | Connect L298N: IN1→pin6, IN2→pin7, IN3→pin8, IN4→pin9, ENA→pin10(PWM), ENB→pin11(PWM). Write motor functions: `forward()`, `backward()`, `stopMotors()`. |
 | 17 | Car drive code — functions | Write clean functions: `void forward(int speed)`, `void turnLeft()`, `void stopAll()`. Test each with Serial Monitor commands. |
 | 18 | Auto-stop with IR sensor — the car thinks! | Combine: if (`irSensor == LOW`) → `forward()`. Else if (`irSensor == HIGH`) → `stopAll()`. Drive toward a wall → car stops by itself! |
-| 19 | LDR auto-headlights in code | `int lightLevel = analogRead(A1)`. If lightLevel < 400 → `digitalWrite(headlightPin, HIGH)`. Else → LOW. Dim room → car lights up! |
+| 19 | The Dark Streetlight Problem | How can lights turn on automatically when it gets dark? LDR on A1. If lightLevel < 400 → `digitalWrite(headlightPin, HIGH)`. Else → LOW. |
 | 20 | **Chain Project Session 1** — Strip old car wiring | Remove all 4th-class components (BC547, 555, manual switches). Keep: chassis, motors, L298N, wheels. Plan new Arduino wiring. |
 | 21 | **Chain Project Session 2** — Arduino Uno mounting + wiring | Mount Arduino on chassis. Wire: Uno → L298N (motor control). Wire: Uno → IR sensor (front obstacle). Wire: Uno → LDR (headlight). |
 | 22 | **Chain Project Session 3** — Upload obstacle-stop code | Upload complete code: IR detects obstacle → stop motors. LDR dark → headlights on. Test on the floor — does it stop before hitting the wall? |

@@ -1,12 +1,12 @@
 # 🚗 Standard 2 — Motion
-## Theme: "Machines That Move"
+## Theme: "A Robot's Muscles — Machines That Move"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
 
 ## What You'll Build This Year
 
-- **🔗 Chain Project:** Upgrade your Vibrating Bug from 1st class → RC Car! Add an L298N motor driver + 4 push buttons + proper chassis. Now it drives: Forward, Backward, Left, Right — all with physical buttons. No code, no Arduino. Pure wiring logic.
+- **🔗 Chain Project:** Upgrade your Vibrating Bug from 1st class → RC Car (A Robot's Muscles)! Add a motor driver module (the muscles) + 4 push buttons (the controllers) + proper chassis. Now it drives: Forward, Backward, Left, Right — all with physical buttons. No code, no Arduino. Pure wiring logic.
 - **🚀 Standalone Project:** Traffic Light System — 3 LEDs (Red, Yellow, Green) + toggle switch + manual timing. Build a working traffic signal!
 
 ---
@@ -31,14 +31,14 @@
 |---------|-------|----------|
 | 1 | Welcome back — show your Bug! | Each student places their Vibrating Bug on the table and switches it on. Crawl race! Then the question: "What if we could STEER it?" |
 | 2 | Review: circuits, switches, DC motors | Quick quiz. Rebuild a simple LED + switch circuit from memory. Refresh before we level up. |
-| 3 | What is a motor driver? Why do we need it? | Problem: your fingers can't send clean F/B/L/R signals to two motors simultaneously. Solution: L298N. Intro to the chip. |
-| 4 | L298N layout tour | Identify every pin: IN1, IN2, IN3, IN4, ENA, ENB, 12V, GND, 5V out. Fill in a printed blank pin diagram. |
-| 5 | L298N logic table — how input pins control motor direction | IN1=HIGH, IN2=LOW → motor spins forward. IN1=LOW, IN2=HIGH → reverse. Both LOW → stop. Fill in truth table. |
-| 6 | Wire ONE motor to L298N | Connect Motor A to L298N. Use jumper wires to manually pull IN1/IN2 HIGH/LOW. Watch motor respond! |
-| 7 | Wire BOTH motors | Add Motor B. Now both motors can be controlled. Test: both forward, both backward, one each direction (= turn). |
-| 8 | Introduce push buttons — review + new use | What happens when you wire a button directly to IN1? Press = HIGH signal! Test this concept. |
-| 9 | Forward button circuit | Wire one button: press → IN1 HIGH, IN2 LOW → Motor A forward. Let go → motor stops. |
-| 10 | Backward button circuit | Second button: IN1 LOW, IN2 HIGH → motor reverses. Now you have 2 buttons controlling 1 motor. |
+| 3 | What is a motor driver? Why do we need a muscle helper? | Problem: motors need a lot of electricity, and our buttons can't send clean signals to two motors at once. Solution: a motor driver (our robot's muscle helper). |
+| 4 | Motor driver board layout tour | Identify where the battery connects, where Motor A and B plug in, and find the 4 control gates (IN1, IN2, IN3, IN4) using color-coded stickers. |
+| 5 | Driver Gate Table — how gates control direction | Sending power to Gate 1 (IN1) makes Motor A spin forward. Gate 2 (IN2) makes it spin backward. Fill in the direction gate chart. |
+| 6 | Wire Motor A (Left Muscle) | Connect Motor A to the driver. Use jumper wires to touch the gates and watch the motor spin forward or backward! |
+| 7 | Wire Both Motors | Add Motor B to the driver. Test coordinating both motors: both forward, both backward, or spinning opposite ways. |
+| 8 | Push buttons as gates | What happens when you wire a button to a control gate? Pressing the button opens the gate! Test this concept. |
+| 9 | Forward button circuit | Wire a button so pressing it sends power to both motors' forward gates. Press -> both wheels spin forward! |
+| 10 | Backward button circuit | Wire a second button to both motors' backward gates. Press -> both wheels spin backward! |
 | 11 | Left turn logic | For a left turn: right motor forward, left motor stopped (or reverse). Wire button 3 to create this. |
 | 12 | Right turn logic | Mirror of left: left motor forward, right motor stopped. Wire button 4. |
 | 13 | Full 4-button panel — breadboard layout | Lay out all 4 buttons neatly on breadboard. Label them F / B / L / R. Test each button individually. |
@@ -81,15 +81,15 @@
 
 **The Upgrade Story:** In 1st class the motor just spun and the bug vibrated randomly. Now we control TWO motors with a driver chip. Press Forward → both motors spin forward. Press Left → right motor spins, left motor stops. The bug is no longer random — it obeys you!
 
-**L298N Logic Reference:**
+**L298N Logic Reference (Simplified Gate Table):**
 
-| Button | IN1 | IN2 | IN3 | IN4 | Result |
-|--------|-----|-----|-----|-----|--------|
-| Forward | HIGH | LOW | HIGH | LOW | Both motors forward |
-| Backward | LOW | HIGH | LOW | HIGH | Both motors backward |
-| Left | HIGH | LOW | LOW | LOW | Right motor only → turns left |
-| Right | LOW | LOW | HIGH | LOW | Left motor only → turns right |
-| None | LOW | LOW | LOW | LOW | Both motors stop |
+| Button | Left Motor Gate (IN1) | Left Motor Gate (IN2) | Right Motor Gate (IN3) | Right Motor Gate (IN4) | Result |
+|--------|-----------------------|-----------------------|------------------------|------------------------|--------|
+| Forward | ON | OFF | ON | OFF | Both motors forward |
+| Backward | OFF | ON | OFF | ON | Both motors backward |
+| Left | ON | OFF | OFF | OFF | Right motor spins forward → turns left |
+| Right | OFF | OFF | ON | OFF | Left motor spins forward → turns right |
+| None | OFF | OFF | OFF | OFF | Both motors stop |
 
 **Keep It:** Put the RC Car away carefully. In 3rd class you'll add LED headlights and a buzzer horn!
 

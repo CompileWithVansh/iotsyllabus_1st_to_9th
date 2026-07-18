@@ -1,5 +1,5 @@
 # 🔬 Standard 4 — Electronics
-## Theme: "Understanding the Parts"
+## Theme: "A Robot's Reflexes — Understanding the Parts"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -37,9 +37,9 @@
 |---------|-------|----------|
 | 1 | Welcome back — measure circuit voltages! | Use multimeter to measure the voltage at different points in the RC car circuit. Where does 9V enter? Where does it drop? |
 | 2 | Multimeter basics — voltage, resistance, continuity | Measure: 9V battery, voltage across LED (should be ~2V), resistance of resistors. Compare measured vs color-code values. |
-| 3 | Series vs parallel revisited — measure not just observe | Build series circuit. Measure voltage across each resistor. Verify Kirchhoff's Voltage Law: drops add up to total. |
-| 4 | BC547 NPN transistor — anatomy | Identify Base, Collector, Emitter. Draw the symbol. Compare BC547 vs BC557: NPN vs PNP — which pin is the "trigger"? |
-| 5 | BC547 as a switch — base resistor calculation | Formula: Ib = (Vcc - 0.7) / Rb. Wire LDR as voltage divider → base → BC547 → LED on collector. Cover LDR = LED ON! |
+| 3 | Series vs parallel pathways | Build series and parallel circuits. Use a multimeter to see how electricity divides along paths. Verify how parts share the power. |
+| 4 | Meet the Transistor — The Faucet Valve | Identify the transistor's three legs: Base (the handle), Collector (the water inlet), and Emitter (the water outlet). Draw the symbol. |
+| 5 | Transistor as an Automatic Switch | Wire LDR sensor to control the transistor base. When base gets a tiny signal, it opens the main gate from collector to emitter. Cover LDR = LED ON! (No math or formulas). |
 | 6 | Automatic night light (no Arduino, no code!) | LDR + BC547 + LED. Dark = high LDR resistance → transistor triggered → LED glows. It just works. Add pot to adjust sensitivity threshold. |
 | 7 | Touch-activated circuit | Expose two bare wires. Touch both with finger → skin resistance activates BC547 base → buzzer sounds. YOU are part of the circuit! |
 | 8 | BC547 driving a buzzer (relay-like) | Small current at base drives buzzer on collector circuit. Demonstrates transistor as current amplifier — tiny signal, big result. |
@@ -50,19 +50,19 @@
 | 13 | **Chain Project Session 3** — NE555 warning blink | Wire 555 in astable mode: two resistors + capacitor → LED blinks automatically. Mount a yellow blinking LED on car roof. It blinks constantly while the car is on! |
 | 14 | **Chain Project Session 4** — Full system test | Test all systems: auto-headlights (cover LDR → lights on), timed horn (button → 2-second honk), blink light (constant flash). All simultaneously! |
 | 15 | **Chain Project Session 5** — Documentation | Draw complete circuit diagram with ALL 3 years of upgrades. Annotate what was added in 1st, 2nd, 3rd, 4th class. |
-| 16 | Logic gates — binary thinking | What is TRUE and FALSE in electronics? HIGH = 1, LOW = 0. Practice: 3 switches, write the output as binary patterns. |
-| 17 | AND gate — 7408 IC | Pin layout of 7408 (4× AND gates in one chip). Wire 2 switches → AND gate → LED. Truth table: LED only if BOTH switches are ON. |
-| 18 | OR gate — 7432 IC | Wire 2 switches → OR gate → LED. LED if EITHER switch is ON. Compare to AND: which is more "forgiving"? |
-| 19 | NOT gate (inverter) — 7404 IC | Single switch → NOT gate → LED. Switch ON → LED OFF. Switch OFF → LED ON. The gate "inverts" the signal! |
-| 20 | Combining gates — AND + NOT = NAND behavior | Wire: switch → NOT gate → AND gate (with second switch). Build truth table. What combination turns the LED on? |
+| 16 | Logic games — Yes and No signals | Play the Yes/No game. Red light = No, Green light = Yes. Practice passing signals through the class using rules. |
+| 17 | AND gate — "Both switches must say YES" | Connect 2 switches to a 7408 AND gate. Observe: the LED turns on only when BOTH Switch A AND Switch B are closed. |
+| 18 | OR gate — "Either switch can say YES" | Connect 2 switches to a 7432 OR gate. Observe: the LED turns on if Switch A OR Switch B is closed. |
+| 19 | NOT gate — "The opposite / flip game" | Connect a switch to a 7404 NOT gate. Observe: when the switch is OFF, the LED is ON. It flips the signal! |
+| 20 | Combining gates — "Secret Code games" | Wire a NOT gate into an AND gate. Figure out the secret switch positions to make the light shine. |
 | 21 | **Standalone Project** — Logic lock concept | Real problem: security systems need a "correct code." A combination of switches = a code. Only the right pattern unlocks the door. Design your lock. |
 | 22 | Standalone — Plan the 3-switch combination | Choose your secret combination: e.g., SW1=ON, SW2=OFF, SW3=ON. Design using AND + NOT gates so only this combo triggers output. |
 | 23 | Standalone — Wire the gate circuit | Implement the logic: SW1 → AND gate (input A), SW2 → NOT gate → AND gate (input B), SW3 feeds into second AND gate. Only correct pattern = HIGH output. |
 | 24 | Standalone — Add the unlock output | Correct combo → HIGH signal → green LED + servo (if available) OR just green LED (simulating door open). Wrong combo → always LOW → red LED + buzzer. |
 | 25 | Standalone — Mount in housing | Build a "security panel" on cardboard. 3 labeled toggle switches, green/red LED display, buzzer. Make it look official! |
 | 26 | Standalone — Test all combinations | Test ALL 8 possible combinations (2³ = 8). Only the correct one should open. Fill in a truth table and verify. |
-| 27 | 555 timer deep-dive — astable mode | How does 555 calculate blink rate? Formula: f = 1.44 / ((R1 + 2×R2) × C). Change R2 or C → change blink speed. |
-| 28 | 555 timer — monostable mode | Press button → 555 output goes HIGH for exactly T seconds (T = 1.1 × R × C). Change timing with different R/C. |
+| 27 | 555 Timer as a Heartbeat | Build an automatic blinking warning light using a 555 timer. Change the resistor and capacitor sizes to see how speed changes. |
+| 28 | 555 Timer as a Timer Switch | Press a button -> the light stays on for a few seconds and then goes off. Change capacitor size to control timing. |
 | 29 | 555 police siren (bonus build) | Two 555 timers chained: first modulates the second → speaker produces rising/falling siren. No Arduino needed! |
 | 30 | Component review sprint | Blindfold challenge: identify components by touch/shape. OR speed quiz: teacher holds up component, first to name it + describe use wins a point. |
 | 31 | Mock Exhibition prep — Chain Project | Practice demonstrating all 4 years of the car. Cover the LDR → lights come on. Press horn → 2-second honk. Point to blinking roof light. |
@@ -93,9 +93,10 @@ LDR + 10kΩ resistor divider → Base of BC547
 White LEDs (parallel) across Collector/Emitter output
 ```
 
-**555 Astable (Blink) Circuit — Values for ~2Hz blink:**
-- R1 = 1kΩ, R2 = 47kΩ, C = 10µF
-- Blink rate = 1.44 / ((1k + 2×47k) × 10µF) ≈ 1.5 Hz
+**555 Astable (Blink) Circuit Configuration:**
+- Resistors: R1 = 1kΩ, R2 = 47kΩ
+- Capacitor: C = 10µF
+- Note: Changing the capacitor to a larger value (like 47µF) makes it blink slower, while a smaller one makes it blink faster.
 
 **Keep It:** The car now has 4 years of history. In 5th class the entire brain is replaced with an Arduino Uno — and suddenly it can be programmed to do all these things AND much more!
 

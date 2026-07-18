@@ -1,5 +1,5 @@
 # 🌡️ Standard 6 — Sensors
-## Theme: "Every Sensor Has a Story"
+## Theme: "A Robot's Senses — Every Sensor Has a Story"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -38,11 +38,11 @@
 | 3 | MQ-2 threshold alert | Set threshold at 400. If `analogRead(MQ2_PIN) > 400` → buzzer + red LED. "Gas detected!" Display value on Serial Monitor. |
 | 4 | MQ-135 air quality sensor | Similar to MQ-2 but for CO2, ammonia, benzene. Compare readings: fresh air vs near a candle. Print AQI-style category: GOOD / MODERATE / POOR. |
 | 5 | MQ-2 + MQ-135 combined alert | If EITHER sensor exceeds threshold → full alert. Real air quality stations use multiple sensors for redundancy. |
-| 6 | HC-SR04 ultrasonic — how it measures distance | Trigger pin → sends pulse → Echo pin receives reflection → time difference = distance. Formula: distance = (duration × 0.034) / 2 cm. |
-| 7 | HC-SR04 code + Serial Monitor | Wire Trigger to pin 9, Echo to pin 10. Print distance every 500ms. Wave hand — watch values change in real time! |
+| 6 | The blind spots problem — measuring distance | How does a robot know how far away a wall is? HC-SR04 ultrasonic sensor. Formula: distance = (duration × 0.034) / 2 cm. |
+| 7 | Distance measurement in code | Wire Trigger to pin 9, Echo to pin 10. Print distance every 500ms. Wave hand — watch values change in real time! |
 | 8 | Distance thresholds — zones | Print: if distance > 50cm → "FAR", if 20–50 → "NEAR", if < 20 → "VERY CLOSE — STOP!". |
-| 9 | MPU-6050 — gyroscope + accelerometer | Wire via I2C. Install MPU6050 library. Print X, Y, Z acceleration values. Tilt the module → values shift dramatically. |
-| 10 | MPU-6050 tilt detection | If abs(accelX) > 2.0 → print "TILTED LEFT". If abs(accelY) > 2.0 → print "TILTED FORWARD". Make a tilt-activated LED game! |
+| 9 | The Tilted Robot Problem | How does a robot know if it has fallen down or tipped over? Introduce MPU-6050 gyroscope/accelerometer. Print tilt values. |
+| 10 | Fall detection trigger | If tilt value exceeds threshold → trigger alarm. "Robot has fallen down!". Make a tilt-activated LED game. |
 | 11 | 16×2 LCD I2C — setup | Wire LCD: SDA→A4, SCL→A5. Install LiquidCrystal_I2C library. Display "SENSOR LAB" on line 1. Display today's date on line 2. |
 | 12 | LCD + live sensor values | Display HC-SR04 distance on LCD: "DIST: 34cm". Update every 500ms. Watch LCD change as you move your hand. |
 | 13 | LCD + OLED together | Show different data on each display: LCD = distance value. OLED = gas sensor status. Two displays, two information streams. |

@@ -1,12 +1,12 @@
 # ⚡ Standard 1 — Spark
-## Theme: "Electricity Wakes Up"
+## Theme: "A Robot's Body — Electricity Wakes It Up"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
 
 ## What You'll Build This Year
 
-- **🔗 Chain Project:** The Vibrating Bug — DC motor + asymmetric weight blob + decorated body (beetle or ladybug). Switch it on and it CRAWLS across the table! You keep this bug — in 2nd class you'll turn it into an RC car.
+- **🔗 Chain Project:** The Vibrating Bug (A Robot's First Body) — DC motor + asymmetric weight blob + decorated body (beetle or ladybug). Switch it on and it CRAWLS across the table! You keep this bug — in 2nd class you'll turn it into an RC car.
 - **🚀 Standalone Project:** Mini Fire Alarm — LED + buzzer + push button. Press the button and it screams "FIRE!"
 
 ---
@@ -29,10 +29,10 @@
 
 | Session | Topic | Activity |
 |---------|-------|----------|
-| 1 | What is electronics? | Look at real finished projects: a torch, a buzzer alarm, a crawling bug. "Which can YOU build this year?" |
-| 2 | What is electricity? Charges, current, voltage in simple words | Rub balloon on hair → static shock. Coin cell + alligator clip + LED → it glows! Magic? No — science! |
-| 3 | Batteries — types, sizes, voltage | Handle AA, AAA, 9V, coin cell. Which ones light up an LED? Test them all. |
-| 4 | Conductors vs Insulators | Touch-test challenge: connect coin cell + LED through plastic, metal, eraser, foil. Which glows? Make a class chart. |
+| 1 | What is a robot? Intro to physical bodies | Look at real finished projects: a torch, a buzzer alarm, a crawling bug. "What makes something a robot?" (It has a body, parts, and power). |
+| 2 | What is electricity? The water pipe path analogy | Rub balloon on hair → static shock. Coin cell + alligator clip + LED → it glows! Understand: electricity needs a continuous path (closed loop) to flow. |
+| 3 | Batteries — our power sources | Handle AA, AAA, 9V, coin cell. Which ones give enough "push" to light up an LED? Test them all. (No formulas or numbers). |
+| 4 | Conductors vs Insulators (Free paths vs blocked paths) | Touch-test challenge: connect coin cell + LED through plastic, metal, eraser, foil. Which allows electricity to flow? Make a class chart. |
 | 5 | First breadboard circuit — LED + battery | Plug in your first LED on the breadboard. Make it glow. You just built a circuit! |
 | 6 | Series circuits — LEDs in a line | Chain 3 LEDs in series. Remove one → all go out! Why? |
 | 7 | Parallel circuits — LEDs side by side | Wire 3 LEDs in parallel. Remove one → others stay on! Compare to series. |
@@ -43,7 +43,7 @@
 | 12 | Buzzer + button = alarm | Build a fire alarm: press button → buzzer screams. This is your standalone project skeleton! |
 | 13 | DC motor — how rotation works | Wire motor directly to battery. Spin! Attach a folded paper propeller → mini fan! |
 | 14 | Reversing motor direction | Flip battery wires → motor spins the other way. Mark the shaft with tape and watch it reverse. |
-| 15 | Motor speed + power | Try 1.5V vs 3V vs 4.5V. Does more voltage = faster spin? Observe and discuss. |
+| 15 | Motor speed + power | Try different numbers of battery cells. Does more battery push/power = faster spin? Observe and discuss. |
 | 16 | Vibration with asymmetric weight | Attach a lump of hot glue off-center on the motor shaft. It wobbles and shakes! |
 | 17 | Copper tape circuits on paper | LED greeting card — fold card, lay copper tape track, press flap → LED glows. |
 | 18 | Wearable LED badge | Copper tape + LED + coin cell on card. Make your name initial light up! |

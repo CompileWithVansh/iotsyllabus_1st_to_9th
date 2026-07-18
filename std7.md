@@ -1,5 +1,5 @@
 # 🤖 Standard 7 — Autonomy
-## Theme: "Robots That Think"
+## Theme: "A Robot's Autonomy — Robots That Think"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -45,9 +45,9 @@
 | 11 | Line follower calibration | Calibrate sensor height (3–5mm from floor). Create black tape track on white paper. Test line following. Debug veering behavior. |
 | 12 | Line follower + obstacle override | Line follow until obstacle detected (ultrasonic < 15cm) → pause line follow → avoid → resume. Real autonomous combined behavior! |
 | 13 | OLED status display for robot | Display robot state: "MODE: DRIVING", "MODE: AVOIDING", "DIST: XXcm". States change in real time as robot operates. |
-| 14 | FlySky FS-i6 — binding TX/RX | Bind transmitter to receiver. Connect receiver PWM output to Nano pin. `pulseIn()` reads 1000–2000µs channel values. |
-| 15 | FlySky proportional control | `map(channelValue, 1000, 2000, -255, 255)` → motor speed. Joystick angle = speed + direction. Proportional, not just on/off! |
-| 16 | RC car with FlySky — test drive | Full RC car control from FlySky transmitter. Smooth proportional steering. Race around a course! |
+| 14 | [Optional] FlySky FS-i6 — binding TX/RX | Bind transmitter to receiver. Connect receiver PWM output to Nano pin. `pulseIn()` reads 1000–2000µs channel values. |
+| 15 | [Optional] FlySky proportional control | `map(channelValue, 1000, 2000, -255, 255)` → motor speed. Joystick angle = speed + direction. Proportional, not just on/off! |
+| 16 | [Optional] RC car with FlySky — test drive | Full RC car control from FlySky transmitter. Smooth proportional steering. Race around a course! |
 | 17 | **Chain Project Session 1** — Swap Uno → Nano | Remove Arduino Uno from car. Mount Arduino Nano in its place (smaller, lighter). Re-wire all connections (same pins, smaller board). |
 | 18 | **Chain Project Session 2** — Servo scanner mount | 3D print or cut a small bracket. Mount servo on front of car. Mount HC-SR04 on top of servo. Servo can now rotate the "eyes" left/right. |
 | 19 | **Chain Project Session 3** — Scanning algorithm | Upload scanning code: obstacle in front → servo scans → measures left distance + right distance → picks larger → turns that way. |

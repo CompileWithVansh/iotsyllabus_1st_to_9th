@@ -1,5 +1,5 @@
 # 📡 Standard 8 — Connect
-## Theme: "Everything Goes Wireless"
+## Theme: "A Robot's Voice & Connections — Everything Goes Wireless"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -44,10 +44,10 @@
 | 8 | TSOP1738 IR receiver — remote control | Install IRremote.h. Point any TV remote at TSOP1738 → Serial Monitor prints hex code per button. Map codes to actions. |
 | 9 | IR remote robot control (bonus) | Optional: Add IR control as a third mode. Now robot can be controlled by TV remote, phone BT, OR autonomous. Three control channels! |
 | 10 | ESP8266 NodeMCU — WiFi module intro | Install ESP8266 board in Arduino IDE. Blink the built-in LED. Connect to WiFi: `WiFi.begin(ssid, password)`. Print IP address. It's online! |
-| 11 | ESP8266 → Blynk cloud | Install Blynk library. Create Blynk project. Add a gauge widget (Virtual Pin V0). Upload code: send DHT22 temperature to V0. Phone shows live temperature! |
-| 12 | Blynk button widget → relay control | Add Button widget on V1. Button press → ESP8266 → relay pin HIGH → relay clicks. You just turned a lamp on from your phone! |
-| 13 | **Chain Project Session 3** — ESP8266 robot status reporter | Add ESP8266 alongside Nano on robot. Nano → sends distance + mode to Serial. ESP8266 reads Serial → sends to Blynk. Phone dashboard shows: Distance, Mode (AUTO/MANUAL). |
-| 14 | **Chain Project Session 4** — Blynk dashboard for robot | On Blynk: add Gauge (distance), Label (mode: AUTO/MANUAL), Chart (distance over time). Now you can watch the robot "live" on your phone from across the room! |
+| 11 | ESP8266 → Cloud dashboard (Blynk/Adafruit IO) | Install dashboard library. Create a cloud project. Add a gauge widget. Upload code: send DHT22 temperature. Phone shows live temperature! |
+| 12 | Cloud button widget → relay control | Add Button widget on dashboard. Button press → ESP8266 → relay pin HIGH → relay clicks. You just turned a lamp on from your phone! |
+| 13 | **Chain Project Session 3** — ESP8266 robot status reporter | Add ESP8266 alongside Nano on robot. Nano → sends distance + mode to Serial. ESP8266 reads Serial → sends to Cloud. Phone dashboard shows: Distance, Mode (AUTO/MANUAL). |
+| 14 | **Chain Project Session 4** — Cloud dashboard for robot | On Cloud dashboard: add Gauge (distance), Label (mode: AUTO/MANUAL), Chart (distance over time). Now you can watch the robot "live" on your phone from across the room! |
 | 15 | **Chain Project Session 5** — Full integration test | All three layers working: Bluetooth manual control from phone + autonomous mode + Blynk dashboard reporting status. The ultimate robot! |
 | 16 | **Chain Project Complete** — 8-year upgrade card | Update the upgrade poster. Add: "8th: Bluetooth phone control + Blynk IoT dashboard." Document all connections in a wiring table. |
 | 17 | Relay module — understanding the contacts | NO (Normally Open) vs NC (Normally Closed). Inductive kickback — why you need a flyback diode. Never connect 230V — only safe low-voltage demo. |
@@ -80,8 +80,11 @@
 **What You Add This Year:**
 1. **HC-05 Bluetooth module** — phone can send F/B/L/R/S commands and mode toggle commands
 2. **Dual-mode logic** — 'A' = autonomous mode (obstacle avoidance from 7th class), 'M' = manual Bluetooth mode
-3. **ESP8266 co-processor** — reads robot status from Nano via Serial, uploads to Blynk cloud
-4. **Blynk dashboard** — phone shows: current distance, current mode, connection status
+3. **ESP8266 co-processor** — reads robot status from Nano via Serial, uploads to Cloud (Blynk or Adafruit IO)
+4. **Cloud dashboard** — phone shows: current distance, current mode, connection status
+
+> [!NOTE]
+> **Cloud Platform Flexibility:** Blynk and other cloud dashboards often update their pricing or API structures. If Blynk is restricted or unavailable, you can seamlessly substitute it with Adafruit IO, ThingSpeak, or a local dashboard using ESPAsyncWebServer.
 
 **The Upgrade Story:** The 7th class robot was fully autonomous. But sometimes you want to OVERRIDE automation — the same way modern cars have autopilot AND manual mode. The HC-05 adds the manual layer. The Blynk dashboard makes the robot visible from anywhere. You've built a remote-observable, dual-mode autonomous system!
 

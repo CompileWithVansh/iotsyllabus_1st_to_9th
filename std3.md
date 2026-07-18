@@ -1,5 +1,5 @@
 # 🔦 Standard 3 — Enhanced
-## Theme: "Add Features, Add Power"
+## Theme: "A Robot's Features — Add Features, Add Power"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
@@ -33,7 +33,7 @@
 | 1 | Welcome back — drive your car! | Bring out the RC Car from 2nd class. Drive it around. Observe: "What does a real car have that ours is missing?" → Headlights! Horn! |
 | 2 | Review: L298N, 4-button control | Quick rebuild challenge: from a jumbled set of components, reconstruct the basic RC car circuit diagram in 10 minutes. |
 | 3 | Resistors deep dive — color code | Learn the 4-band color code. Decode 10 resistors. Race: who identifies values fastest? Write values on masking tape labels. |
-| 4 | Resistors in practice — protecting LEDs | Why does an LED burn out without a resistor? Calculate: 9V supply, 2V LED forward voltage → R = (9-2)/0.02 = 350Ω. Use 220Ω or 470Ω. |
+| 4 | Resistors in practice — protecting LEDs | Why does an LED burn out without a resistor? The speed breaker analogy. Hook up an LED directly vs with a resistor to see the difference (no math calculations). |
 | 5 | Diodes — one-way current | Connect LED forward biased → glows. Reverse biased → dead. Why? Diode = one-way gate. Demo with 1N4007. |
 | 6 | Diodes in practice — protecting circuits | Wire a motor in reverse without diode → spark risk. Add flyback diode across motor terminals → protected. Understand why motor drivers use diodes internally. |
 | 7 | LED headlights circuit (standalone breadboard) | Wire 2 white LEDs in parallel + toggle switch + resistors. Both LEDs light together. This is the headlight circuit. |
@@ -86,7 +86,7 @@
 9V (+) → Toggle Switch → Resistor (220Ω) → LED 1 →┐
                                                      ├→ GND (-)
                                          LED 2 ───────┘
-(Parallel connection: both LEDs share same resistor)
+(Parallel connection: both LEDs share the path and glow together)
 ```
 
 **Horn Circuit:**

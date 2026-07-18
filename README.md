@@ -9,15 +9,15 @@ Each standard has its own dedicated syllabus file — one class, one file, 36 se
 
 | File | Standard | Title | Theme |
 |------|----------|-------|-------|
-| `std1.md` | 1st Standard | ⚡ Spark | Electricity Wakes Up |
-| `std2.md` | 2nd Standard | 🚗 Motion | Machines That Move |
-| `std3.md` | 3rd Standard | 🔦 Enhanced | Add Features, Add Power |
-| `std4.md` | 4th Standard | 🔬 Electronics | Understanding the Parts |
-| `std5.md` | 5th Standard | 💻 Code Begins | Arduino Enters the Lab |
-| `std6.md` | 6th Standard | 🌡️ Sensors | Every Sensor Has a Story |
-| `std7.md` | 7th Standard | 🤖 Autonomy | Robots That Think |
-| `std8.md` | 8th Standard | 📡 Connect | Everything Goes Wireless |
-| `std9.md` | 9th Standard | 🧠 Intelligence | AI Meets Hardware |
+| `std1.md` | 1st Standard | ⚡ Spark | A Robot's Body — Electricity Wakes It Up |
+| `std2.md` | 2nd Standard | 🚗 Motion | A Robot's Muscles — Machines That Move |
+| `std3.md` | 3rd Standard | 🔦 Enhanced | A Robot's Features — Add Features, Add Power |
+| `std4.md` | 4th Standard | 🔬 Electronics | A Robot's Reflexes — Understanding the Parts |
+| `std5.md` | 5th Standard | 💻 Code Begins | A Robot's Brain — Arduino Enters the Lab |
+| `std6.md` | 6th Standard | 🌡️ Sensors | A Robot's Senses — Every Sensor Has a Story |
+| `std7.md` | 7th Standard | 🤖 Autonomy | A Robot's Autonomy — Robots That Think |
+| `std8.md` | 8th Standard | 📡 Connect | A Robot's Voice & Connections — Everything Goes Wireless |
+| `std9.md` | 9th Standard | 🧠 Intelligence | A Robot's Mind — AI Meets Hardware |
 
 ---
 
