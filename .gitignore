@@ -1,0 +1,10 @@
+# Old/draft files
+old.md
+*.pdf
+
+# Old level-based files (replaced by std1-9 files)
+level-1-tinkerer-std1-4.md
+level-2-builder-std5-6.md
+level-3-engineer-std6-7.md
+level-4-inventor-std7-8.md
+level-5-innovator-std8-9.md
