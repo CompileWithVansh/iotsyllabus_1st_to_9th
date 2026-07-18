@@ -1,5 +1,5 @@
 # 🔦 Standard 3 — Enhanced
-## Theme: "A Robot's Features — Add Features, Add Power"
+## Theme: "Electronic Components & Applied Features"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

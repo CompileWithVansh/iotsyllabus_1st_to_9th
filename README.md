@@ -9,15 +9,15 @@ Each standard has its own dedicated syllabus file — one class, one file, 36 se
 
 | File | Standard | Title | Theme |
 |------|----------|-------|-------|
-| `std1.md` | 1st Standard | ⚡ Spark | A Robot's Body — Electricity Wakes It Up |
-| `std2.md` | 2nd Standard | 🚗 Motion | A Robot's Muscles — Machines That Move |
-| `std3.md` | 3rd Standard | 🔦 Enhanced | A Robot's Features — Add Features, Add Power |
-| `std4.md` | 4th Standard | 🔬 Electronics | A Robot's Reflexes — Understanding the Parts |
-| `std5.md` | 5th Standard | 💻 Code Begins | A Robot's Brain — Arduino Enters the Lab |
-| `std6.md` | 6th Standard | 🌡️ Sensors | A Robot's Senses — Every Sensor Has a Story |
-| `std7.md` | 7th Standard | 🤖 Autonomy | A Robot's Autonomy — Robots That Think |
-| `std8.md` | 8th Standard | 📡 Connect | A Robot's Voice & Connections — Everything Goes Wireless |
-| `std9.md` | 9th Standard | 🧠 Intelligence | A Robot's Mind — AI Meets Hardware |
+| `std1.md` | 1st Standard | ⚡ Spark | Introduction to Electrical Circuits & Mechanical Motion |
+| `std2.md` | 2nd Standard | 🚗 Motion | Motor Controls & Mechanical Logic |
+| `std3.md` | 3rd Standard | 🔦 Enhanced | Electronic Components & Applied Features |
+| `std4.md` | 4th Standard | 🔬 Electronics | Logic Control, Transistors & System Reflexes |
+| `std5.md` | 5th Standard | 💻 Code Begins | Embedded Systems & Microcontroller Programming |
+| `std6.md` | 6th Standard | 🌡️ Sensors | Sensor Integration & Physical Computing |
+| `std7.md` | 7th Standard | 🤖 Autonomy | Autonomous Systems & Robotics |
+| `std8.md` | 8th Standard | 📡 Connect | Wireless Communication & IoT (Internet of Things) |
+| `std9.md` | 9th Standard | 🧠 Intelligence | Artificial Intelligence & Edge Computing |
 
 ---
 

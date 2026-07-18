@@ -1,5 +1,5 @@
 # ⚡ Standard 1 — Spark
-## Theme: "A Robot's Body — Electricity Wakes It Up"
+## Theme: "Introduction to Electrical Circuits & Mechanical Motion"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

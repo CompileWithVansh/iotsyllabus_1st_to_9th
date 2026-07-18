@@ -1,5 +1,5 @@
 # 🤖 Standard 7 — Autonomy
-## Theme: "A Robot's Autonomy — Robots That Think"
+## Theme: "Autonomous Systems & Robotics"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

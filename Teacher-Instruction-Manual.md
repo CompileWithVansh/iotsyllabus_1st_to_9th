@@ -6,7 +6,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # ⚡ Standard 1 — Spark Playbook
-### Theme: "A Robot's Body — Electricity Wakes It Up"
+### Theme: "Introduction to Electrical Circuits & Mechanical Motion" (Classroom Analogy: "A Robot's Body")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"Imagine a tiny robotic beetle lying completely still. It cannot move, light up, or make sound. It is sleeping. How do we wake it up? We feed it a magical fluid called electricity! But electricity is picky: it only flows if we build a complete circle pathway for it. Today, we are going to build that path and wake up our first robot body!"*
@@ -31,7 +31,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🚗 Standard 2 — Motion Playbook
-### Theme: "A Robot's Muscles — Machines That Move"
+### Theme: "Motor Controls & Mechanical Logic" (Classroom Analogy: "A Robot's Muscles")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"Our bug crawls, but it just wanders around randomly. It has no steering muscles! Today, we are upgrading our bug into an RC Car. We are giving it two motors (left and right legs) and a helper chip called a 'muscle driver'. By opening and closing different gates on this chip with physical buttons, we will command our robot to go Forward, Backward, Left, and Right!"*
@@ -57,7 +57,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🔦 Standard 3 — Enhanced Playbook
-### Theme: "A Robot's Features — Add Features, Add Power"
+### Theme: "Electronic Components & Applied Features" (Classroom Analogy: "A Robot's Features")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"Real cars have horns to honk and headlights to see in the dark. Our robot has muscles, but it is deaf, mute, and blind. Today, we are adding headlights and a horn! We will also learn how a robot can 'store' energy in a tiny bucket called a capacitor, so that when we press the horn button once, it continues honking for a few seconds even after we let go!"*
@@ -80,7 +80,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🔬 Standard 4 — Reflexes Playbook
-### Theme: "A Robot's Reflexes — Understanding the Parts"
+### Theme: "Logic Control, Transistors & System Reflexes" (Classroom Analogy: "A Robot's Reflexes")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"If you touch a hot plate, your hand pulls back instantly before your brain even thinks. That is a reflex. Robots have reflexes too, built out of smart transistors and logic gates. Today, we will build a streetlight reflex: when the sun goes down, our robot's headlights turn ON instantly, without any computer programming!"*
@@ -105,7 +105,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 💻 Standard 5 — Brain Playbook
-### Theme: "A Robot's Brain — Arduino Enters the Lab"
+### Theme: "Embedded Systems & Microcontroller Programming" (Classroom Analogy: "A Robot's Brain")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"So far, we have built bodies, muscles, and reflexes. But our robot still cannot plan or think. Today, we are putting a computer brain on our robot: the Arduino Uno! Now, instead of moving wires, we write lines of code. We will program our robot to look out for walls and decide to stop itself before crashing!"*
@@ -133,7 +133,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🌡️ Standard 6 — Senses Playbook
-### Theme: "A Robot's Senses — Every Sensor Has a Story"
+### Theme: "Sensor Integration & Physical Computing" (Classroom Analogy: "A Robot's Senses")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"How do you know where you are? You see, smell, and feel. A robot does the same! Today, we are adding new senses to our robot: ears that bounce sound waves to measure exact distance in centimeters, and noses that can smell dangerous gas. Our robot will display these readings on an LCD dashboard, just like a real dashboard!"*
@@ -157,7 +157,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🤖 Standard 7 — Autonomy Playbook
-### Theme: "A Robot's Autonomy — Robots That Think"
+### Theme: "Autonomous Systems & Robotics" (Classroom Analogy: "A Robot's Autonomy")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"A remote-controlled car is not a robot because a human makes all the decisions. A true robot drives itself, scans its surroundings, and decides its own path. Today, we are swapping our Arduino Uno for a smaller Arduino Nano. We will mount our sensor eyes on a servo motor so the robot can look Left and Right, scan distances, and make its own decisions!"*
@@ -180,7 +180,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 📡 Standard 8 — Connections Playbook
-### Theme: "A Robot's Voice & Connections — Everything Goes Wireless"
+### Theme: "Wireless Communication & IoT (Internet of Things)" (Classroom Analogy: "A Robot's Voice & Connections")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"How do we talk to someone far away? We use a mobile phone or the internet. Today, our robot goes wireless! We will connect a Bluetooth module so we can steer it using our phones. Then, we will connect it to the school WiFi, allowing the robot to send its status dashboard straight to a cloud panel. You can watch your robot from anywhere in the world!"*
@@ -204,7 +204,7 @@ This playbook is a plug-and-play manual designed for school tinkering teachers. 
 ---
 
 # 🧠 Standard 9 — Intelligence Playbook
-### Theme: "A Robot's Mind — AI Meets Hardware"
+### Theme: "Artificial Intelligence & Edge Computing" (Classroom Analogy: "A Robot's Mind")
 
 #### 1. The Big Hook (1-Minute Story)
 > *"This is the final stage. Your robot started 8 years ago as a simple bug that just vibrated. Today, we give it a Mind. We will show examples of hand gestures to a camera, train an AI model to recognize them, and send commands to our robot. You can steer your robot by simply waving your hand! No buttons, no apps — pure AI."*

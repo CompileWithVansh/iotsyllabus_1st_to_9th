@@ -1,5 +1,5 @@
 # 📡 Standard 8 — Connect
-## Theme: "A Robot's Voice & Connections — Everything Goes Wireless"
+## Theme: "Wireless Communication & IoT (Internet of Things)"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

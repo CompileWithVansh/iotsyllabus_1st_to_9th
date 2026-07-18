@@ -1,5 +1,5 @@
 # 🚗 Standard 2 — Motion
-## Theme: "A Robot's Muscles — Machines That Move"
+## Theme: "Motor Controls & Mechanical Logic"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

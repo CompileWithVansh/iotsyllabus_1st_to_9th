@@ -1,5 +1,5 @@
 # 🧠 Standard 9 — Intelligence
-## Theme: "A Robot's Mind — AI Meets Hardware"
+## Theme: "Artificial Intelligence & Edge Computing"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

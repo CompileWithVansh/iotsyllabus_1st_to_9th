@@ -1,5 +1,5 @@
 # 💻 Standard 5 — Code Begins
-## Theme: "A Robot's Brain — Arduino Enters the Lab"
+## Theme: "Embedded Systems & Microcontroller Programming"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

@@ -1,5 +1,5 @@
 # 🔬 Standard 4 — Electronics
-## Theme: "A Robot's Reflexes — Understanding the Parts"
+## Theme: "Logic Control, Transistors & System Reflexes"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---

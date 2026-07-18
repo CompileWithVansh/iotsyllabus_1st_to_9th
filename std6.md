@@ -1,5 +1,5 @@
 # 🌡️ Standard 6 — Sensors
-## Theme: "A Robot's Senses — Every Sensor Has a Story"
+## Theme: "Sensor Integration & Physical Computing"
 ### 36 Sessions × 1 hr | 9 Months
 
 ---
