@@ -125,15 +125,4 @@ The 9th-class exhibition is the finale: side-by-side display of a 1st-class vibr
 
 ---
 
-## Legacy Files (Previous Curriculum Structure)
-
-The following files from the previous level-based structure are preserved for reference:
-
-| File | Description |
-|------|-------------|
-| `level-1-tinkerer-std1-4.md` | Original combined Std 1–4 file |
-| `level-2-builder-std5-6.md` | Original combined Std 5–6 file |
-| `level-3-engineer-std6-7.md` | Original combined Std 6–7 file |
-| `level-4-inventor-std7-8.md` | Original combined Std 7–8 file |
-| `level-5-innovator-std8-9.md` | Original combined Std 8–9 file |
-| `old.md` | Earlier draft |
+#
